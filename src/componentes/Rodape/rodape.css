@@ -1,0 +1,29 @@
+.rodape2 {
+    align-items: center;
+    background-color: #6278f7;
+    background-image: url(/public/imagens/fundo.png);
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+    width: 100%;
+  }
+
+.rodape2 .logos{
+    gap: 32px;
+    display: flex;
+  }
+
+
+.rodape2 p{
+    font-weight: 600;
+}
+
+.rodape2 p a{
+    color: antiquewhite;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.rodape2 p a:hover{
+    color: red;
+}
